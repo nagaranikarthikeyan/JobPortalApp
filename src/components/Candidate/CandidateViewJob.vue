@@ -20,7 +20,7 @@
       <footer class="blockquote-footer">Job is in
            <cite title="Source Title"   v-if="item.is_active">Open Status</cite>
            <cite title="Source Title"   v-else-if="!item.is_active">Closed Status</cite>
-           <button class="badge btn btn-primary btn-lg"  v-on:click="applyjob(item.id)">Apply to this job</button>
+           
     </footer>
     
     </blockquote>

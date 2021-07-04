@@ -48,7 +48,7 @@ export default {
           this.$router.push({name:'candidatemain', params: {id: '101'}}); 
        }
        else{
-         console.log("not loggede in:"+this.input.login);
+         alert('Login Failed. Try Again...')
        }
      }
    },
