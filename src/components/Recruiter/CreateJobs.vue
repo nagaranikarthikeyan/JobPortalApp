@@ -9,19 +9,19 @@
               <div class="form-group row">
     <label for="staticEmail" class="col-sm-2 col-form-label">Job Title</label>
     <div class="col-sm-10">
-      <input type="text"  class="form-control" v-model="item.jobtitle" >
+      <input type="text"  class="form-control" v-model="item.jobtitle" required >
     </div>
   </div>
   <div class="form-group row">
     <label for="company" class="col-sm-2 col-form-label">Company</label>
     <div class="col-sm-10">    
-   <input type="text"  class="form-control" id="comapany" v-model="item.companyname">
+   <input type="text"  class="form-control" id="comapany" v-model="item.companyname" required>
     </div>
      </div>
   <div class="form-group row">
     <label for="desc" class="col-sm-2 col-form-label">Job Desc </label>
     <div class="col-sm-8">
-     <textarea class="form-control" rows="5" id="desc" v-model="item.jobdesc" style="margin-left:76px"></textarea>
+     <textarea class="form-control" rows="5" id="desc" v-model="item.jobdesc" style="margin-left:76px" required></textarea>
     </div>
   </div>
   <div class="form-group row">
@@ -33,25 +33,25 @@
   <div class="form-group row">
     <label for="loc" class="col-sm-2 col-form-label">Job Locations</label>
     <div class="col-sm-10">
-   <input type="text" class="form-control " id="loc" v-model="item.locations">
+   <input type="text" required class="form-control " id="loc" v-model="item.locations">
     </div>
       </div>
      <div class="form-group row">
     <label for="exp" class="col-sm-2 col-form-label">Experience</label>
     <div class="col-sm-10">    
-   <input type="text" class="form-control " id="exp" v-model="item.experience"> 
+   <input type="text" required class="form-control " id="exp" v-model="item.experience"> 
     </div>
      </div>
       <div class="form-group row">
     <label for="skill" class="col-sm-2 col-form-label">Skills</label>
     <div class="col-sm-10">    
-   <input type="text"  class="form-control" id="skill" v-model="item.skills">
+   <input type="text" required  class="form-control" id="skill" v-model="item.skills">
     </div>
      </div>
      <div class="form-group row">
     <label for="salary" class="col-sm-2 col-form-label">Salary</label>
     <div class="col-sm-10">    
-   <input type="text"  class="form-control" id="salary" v-model="item.salary">
+   <input type="text" required class="form-control" id="salary" v-model="item.salary">
     </div>
      </div>
     <div class="form-group">
