@@ -41,7 +41,7 @@ export default {
          console.log("Logged:"+this.input.login);
            this.$router.push('/recuritermain')
        }
-       if(this.input.login == "candidate@screel.in")
+       else if(this.input.login == "candidate@screel.in")
        {
          console.log("Logged:"+this.input.login);
           // this.$router.push('/candidatemain'); 
