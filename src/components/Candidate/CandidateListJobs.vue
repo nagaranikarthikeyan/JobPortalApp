@@ -3,7 +3,7 @@
         <div class="card">
         <h1>Jobs</h1>
 <div class="card border-light mb-3" style="min-width: 18rem;"  v-for="item in items" :key="item._id" >
- <div v-show="appliedjobs.includes(item.id)">
+ <div v-show="!appliedjobs.includes(item.id)">
   <h5 class="card-header" style="text-align:left"> {{item.jobtitle}} - <span class="text-primary"> {{item.companyname}} </span></h5>
 
   <div class="card-body text-muted"  style="text-align:left">
